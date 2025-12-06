@@ -11,7 +11,7 @@ import com.hiagodev.course.entities.User;
 @RestController
 @RequestMapping(value ="/users")
 public class UserController {
-    
+
     @GetMapping
     public ResponseEntity<User> findAll(){
         User u1 = new User("hiago", "souza8hiago@email.com", "1192929292", "coisa");
